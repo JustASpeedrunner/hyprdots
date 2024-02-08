@@ -17,6 +17,8 @@ All names are their Arch/AUR package names
 - pavucontrol
 - polkit-kde-agent
 
+#### LIST MAY NOT BE COMPLETE UNTIL FULL RELEASE
+
 This will be installed in a later step, this is just to be transparent.
 
 ## Installation
