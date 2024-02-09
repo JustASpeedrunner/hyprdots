@@ -16,6 +16,7 @@ All names are their Arch/AUR package names
 - alacritty
 - pavucontrol
 - polkit-kde-agent
+- brightnessctl
 
 #### LIST MAY NOT BE COMPLETE UNTIL FULL RELEASE
 
@@ -26,7 +27,7 @@ Method 1 (Script):
 - **Check back later, WIP**
 
 Method 2 (Manual):
-- Install required software: `yay -Sy hyprland-git hyprshot waybar-git hyprpaper waybar-git hyprpaper dunst neofetch wofi wofi-emoji alacritty pavucontrol polkit-kde-agent`
+- Install required software: `yay -Sy hyprland-git hyprshot waybar-git hyprpaper waybar-git hyprpaper dunst neofetch wofi wofi-emoji alacritty pavucontrol polkit-kde-agent brightnessctl`
 - Git clone the repo: `git clone https://github.com/JustASpeedrunner/hyprdots`
 - Cd into the folder: `cd hyprdots`
 - Copy the files into your .config folder: `cp -r .config/* ~/.config/`
