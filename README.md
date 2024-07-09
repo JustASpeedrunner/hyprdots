@@ -1,7 +1,7 @@
 # HyprDots
 My Hyprland (and related) dotfiles.
 
-![1](.assets/screenshots/screenshotterminal.png)
+![1](.assets/screenshots/scr1better.png)
 
 ## Required Software
 All names are their Arch/AUR package names
@@ -10,7 +10,7 @@ All names are their Arch/AUR package names
 - waybar-git
 - hyprpaper
 - dunst
-- neofetch
+- fastfetch
 - wofi
 - wofi-emoji
 - alacritty
@@ -27,7 +27,7 @@ Method 1 (Script):
 - **Check back later, WIP**
 
 Method 2 (Manual):
-- Install required software: `yay -Sy hyprland-git hyprshot waybar-git hyprpaper waybar-git hyprpaper dunst neofetch wofi wofi-emoji alacritty pavucontrol polkit-kde-agent brightnessctl`
+- Install whatever software you'd like to use my dots for.
 - Git clone the repo: `git clone https://github.com/JustASpeedrunner/hyprdots`
 - Cd into the folder: `cd hyprdots`
 - Copy the files into your .config folder: `cp -r .config/* ~/.config/`
@@ -38,8 +38,6 @@ Method 2 (Manual):
 I use Colemak as opposed to QWERTY, so my keybinds are in different places than you may expect them. I did set the keyboard layout to QWERTY in the dotfiles but I didn't change the keybinds to where they would be on Colemak, so by all means change them to your liking.
 
 Also, I am on a laptop so my monitor setup will be different from yours, change the config accordingly in `hypr/hyprland.conf` and in `hypr/hyprpaper.conf`.
-
-Having issues? Make an issue here or check out the `sys.hyprdots` category in my [Discord Server](<https://discord.gg/JPnDTDPp7q>).
 
 ## Keybinds
 Applications
