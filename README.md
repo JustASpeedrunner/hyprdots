@@ -1,5 +1,5 @@
 # HyprDots
-My Hyprland (and related) dotfiles.
+My Hyprland (and related) dotfiles as well as a 'script' to install them (WIP).
 
 ![1](.assets/screenshots/scr1better.png)
 
@@ -27,7 +27,7 @@ Method 1 (Script):
 - **Check back later, WIP**
 
 Method 2 (Manual):
-- Install whatever software you'd like to use my dots for.
+- Install whatever software you'd like, to be certain you've got the essentials check the keybinds in ``hypr/hyprland.conf`` and ensure everything that is used is installed.
 - Git clone the repo: `git clone https://github.com/JustASpeedrunner/hyprdots`
 - Cd into the folder: `cd hyprdots`
 - Copy the files into your .config folder: `cp -r .config/* ~/.config/`
