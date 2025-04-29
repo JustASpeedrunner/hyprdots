@@ -1,9 +1,8 @@
-use std::{
-    process::Command,
-    io,
-};
+use std::{process::Command, io};
+use std::env::var;
 
 fn main() {
+    let user = var("USER").expect("Failed to get USER variable.");
     println!("Welcome to Speedy's HyprDots Installer!");
     print!("Are you using Arch Linux? [Y/n] ");
     let arch:bool;
@@ -33,6 +32,14 @@ fn main() {
 
         println!("Installing yay (AUR Helper) from git");
         yay()
+    } else {
+        println!("Copying config files...");
+        if let Ok(mut fin) = Command::new("cp").args(["-r", "../.local", "/home/{user}/.local/test"]).spawn() {
+            let _ = fin.wait();
+        } else {panic!("panic trying to run `cp -r .local ~/.local`");}
+        if let Ok(mut fin2) = Command::new("cp").args(["-r", "../.config", "/home/{user}/.config/test"]).spawn() {
+            let _ = fin2.wait();
+        } else {panic!("panic trying to run `cp -r .local ~/.local`");}
     }
 }
 

@@ -1,7 +1,7 @@
 # HyprDots
 My Hyprland (and related) dotfiles as well as a 'script' to install them (WIP).
 
-![1](.assets/screenshots/scr1better.png)
+![1](.assets/screenshots/lainscreeny.png)
 
 ## Required Software
 All names are their Arch/AUR package names

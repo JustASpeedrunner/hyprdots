@@ -27,29 +27,29 @@ window#waybar.hidden {
   padding: 6px 18px;
   margin: 6px 3px;
   border-radius: 4px;
-  color: #161626;
-  background-color: #5f8082;
+  color: #161616;
+  background-color: #828282;
 }
 
 #workspaces button.empty {
-  background-color: #2c494b;
-  color: #cdd6f4;
+  background-color: #4b494b;
+  color: #cdd6cd;
 }
 
 #workspaces button.active {
-  color: #1e1e2e;
-  background-color: #cdf1f4;
+  color: #1e1e1e;
+  background-color: #f4f1f4;
 }
 
 #workspaces button:hover {
  box-shadow: inherit;
  text-shadow: inherit;
- color: #1e2c2e;
- background-color: #cdf4f4;
+ color: #2e2c2e;
+ background-color: #f4f4f4;
 }
 
 #workspaces button.urgent {
-  background-color: #8b8ef3;
+  background-color: #8b8e8b;
 }
 
 #cpu,
@@ -63,8 +63,8 @@ window#waybar.hidden {
   border-radius: 4px;
   margin: 6px 3px;
   padding: 6px 12px;
-  background-color: #000236;
-  color: #181825;
+  background-color: #000206;
+  color: #181818;
 }
 
 #custom-power {
@@ -72,15 +72,15 @@ window#waybar.hidden {
 }
 
 #cpu {
-  background-color: #65e5ff;
+  background-color: #ebebeb;
 }
 #battery {
-  background-color: #65e5ff;
+  background-color: #ebebeb;
 }
 @keyframes blink {
   to {
-    background-color: #8b92f3;
-    color: #181825;
+    background-color: #8b928b;
+    color: #181818;
   }
 }
 
@@ -96,35 +96,35 @@ window#waybar.hidden {
   animation-direction: alternate;
 }
 #battery.charging {
-  background-color: #a6e3a1;
+  background-color: #c0d8be;
 }
 
 #pulseaudio {
-  background-color: #8bdbf3;
+  background-color: #8b928b;
 }
 
 #network {
-  background-color: #8bdbf3;
+  background-color: #8b928b;
   padding-right: 17px;
 }
 
 #clock {
   font-family: JetBrainsMono Nerd Font;
-  background-color: #8bdbf3;
+  background-color: #8b928b;
 }
 
 #custom-power {
-  background-color: #cdecf2;
+  background-color: #e6e6e6;
 }
 
 
 tooltip {
 border-radius: 8px;
 padding: 15px;
-background-color: #131822;
+background-color: #131812;
 }
 
 tooltip label {
 padding: 5px;
-background-color: #131822;
+background-color: #131812;
 }

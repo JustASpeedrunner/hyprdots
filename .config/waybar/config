@@ -11,6 +11,7 @@
     ],
     "modules-right": [
         "tray",
+        "battery",
         "cpu",
         "network",
         "pulseaudio"
@@ -43,6 +44,16 @@
     "clock": {
         "tooltip-format": "<tt>{calendar}</tt>",
         "format": "{:%H:%M | %a, %d %b %Y}"
+    },
+    "battery": {
+        "interval": 15,
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon}  {capacity}%",
+        "format-icons": ["", "", "", "", ""],
+        "max-length": 25
     },
     "network": {
         "format-icons": ["󰤯","󰤟","󰤢","󰤥","󰤨"],
